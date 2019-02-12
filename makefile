@@ -1,3 +1,3 @@
- all: main.c
-	  gcc main.c -o main
+ all: main.c arctan.c
+	  gcc main.c arctan.c -o main
 	   ./main
